@@ -1,0 +1,74 @@
+<div class="container-fluid">
+  <app-pagetitle title="Dashboard" [breadcrumbItems]="breadCrumbItems"></app-pagetitle>
+
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        <div *ngFor="let stat of statData" class="col-sm-4">
+          <app-stat [title]="stat.title" [value]="stat.value" [icon]="stat.icon"></app-stat>
+        </div>
+      </div>
+      <!-- end row -->
+
+     
+    </div>
+
+    
+  </div>
+  <!-- end row -->
+
+  <div class="row">
+
+    <div class="col-lg-8">
+      <div class="card">
+        <div class="card-body">
+
+          <h4 class="card-title mb-4">Vue d'ensemble des comptes</h4>
+
+          <div class="table-responsive">
+            <table class="table table-centered">
+              <thead class="thead-light">
+              <tr>
+                <th>Numéro de compte</th>
+                <th>Libellé de compte</th>
+                <th>Date Solde</th>
+                <th>Devise</th>
+                <th>Solde actuel</th>
+
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let item of transactions|filter:term">
+                <td><a [routerLink]="['../transactions']">{{item.orderid}}</a></td>
+                <td>{{item.date}}</td>
+                <td>{{item.billingname}}</td>
+                <td>{{item.total}}</td>
+                <td>
+                  {{item.paymentstatus}}
+                </td>
+                <td>
+                  <a href="javascript:void(0);" class="mr-3 text-primary" ngbTooltip="Virement"><i
+                          class="mdi mdi-bank-transfer   font-size-24" style="color:green;"></i></a>
+
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <app-leaflet></app-leaflet>
+    </div>
+
+  
+  <!-- end row -->
+
+  
+   
+ 
+  
+  
+</div>
+</div>

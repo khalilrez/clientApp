@@ -1,0 +1,244 @@
+{
+  "HEADER": {
+    "SEARCH": "Search...",
+    "MEGA_MENU": "Mega Menu",
+    "NOTIFICATIONS": {
+      "TITLE": "Notifications",
+      "VIEW_ALL": "View All",
+      "LOAD_MORE": "View More..",
+      "FIRST": {
+        "TITLE": "NOTIFICATION TITLE EXEMPLE",
+        "TEXT": "HEDHA TEXT",
+        "TIME": "HEDHA WA9T"
+      },
+      "SECOND": {
+        "TITLE": "NOTIFICATION TITLE EXEMPLE",
+        "TEXT": "HEDHA TEXT",
+        "TIME": "HEDHA WA9T"
+      },
+      "THIRD": {
+        "TITLE": "NOTIFICATION TITLE EXEMPLE",
+        "TEXT": "HEDHA TEXT",
+        "TIME": "HEDHA WA9T"
+      },
+      "FOUR": {
+        "TITLE": "NOTIFICATION TITLE EXEMPLE",
+        "TEXT": "HEDHA TEXT",
+        "TIME": "HEDHA WA9T"
+      }
+    },
+    "SETTINGS": "Settings",
+    "UI": {
+      "TITLE": "UI Components",
+      "LIGHTBOX": "LightBox",
+      "RANGE_SLIDER": "Range Slider",
+      "SWEET_ALERT": "Sweet Alert",
+      "RATING": "Rating",
+      "FORMS": "Forms",
+      "TABLES": "Tables",
+      "CHARTS": "Charts"
+    },
+    "APPLICATIONS": {
+      "TITLE": "Applications",
+      "ECOMMERCE": "Ecommerce",
+      "CALENDAR": "Calendar",
+      "EMAIL": "Email",
+      "PROJECTS": "Projects",
+      "TASKS": "Tasks",
+      "CONTACTS": "Contacts"
+    },
+    "EXTRA_PAGES": {
+      "TITLE": "Extra Pages",
+      "LIGHT_SIDEBAR": "Light Sidebar",
+      "COMPACT_SIDEBAR": "Compact Sidebar",
+      "HORIZONTAL_LAYOUT": "Horizontal layout",
+      "MAINTENANCE": "Maintenance",
+      "COMING SOON": "Coming Soon",
+      "TIMELINE": "Timeline",
+      "FAQ": "FAQs"
+    },
+    "LOGIN": {
+      "PROFILE": "Profile",
+      "MY_WALLET": "My Wallet",
+      "SETTINGS": "Settings",
+      "LOCK_SCREEN": "Lock screen",
+      "LOGOUT": "Logout"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "Menu"
+    },
+    "COMPTE": {
+      "TEXT": "Compte",
+      "BADGE": "03",
+      "LIST": {
+        "ENSEMBLE": "Vue d'ensembles des comptes",
+        "RECHERCHE": "Recherche de mouvements",
+        "MOUVEMENTS": "Mouvements Par Opération",
+        "CFONBCTPER": "CFONB par compte par période",
+        "HISTORIQUECFONBCT": "Historique CFONB par compte",
+        "CFONBGLOBAL": "Historique CFONB global"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "Layouts",
+      "LIST": {
+        "HORIZONTAL": "Horizontal",
+        "LIGHTSIDEBAR": "Light Sidebar",
+        "COMPACTSIDEBAR": "Compact Sidebar",
+        "ICONSIDEBAR": "Icons Sidebar",
+        "BOXED": "Boxed Layout",
+        "COLOREDSIDEBAR": "Colored Sidebar",
+        "VERTICAL": "Vertical",
+        "LIGHTTOPBAR": "Light Topbar",
+        "COLOREDHEADER": "Colored Header"
+      }
+    },
+    "APPS": {
+      "TEXT": "Apps"
+    },
+    "VIREMENT": {
+      "TEXT": "Virement",
+      "LIST":{
+        "VIREMENTCPTACPT":"Virement compte à compte",
+        "VIREMENTVERSBENEF":"Virement vers bénéficiaire",
+        "VIREMENTMASSE":"Virement de Masse",
+        "VIREMENTPERM":"Virement Permanent"
+
+      }
+    },
+    "CHAT": {
+      "TEXT": "Chat",
+      "BADGE": "New"
+    },
+    "GESTIONBUDGET": {
+      "TEXT": "Gestion de Budget",
+      "LIST": {
+        "PARAMETRAGE": "Paramétrage",
+        "GESTIONCATEGORIE": "Gestion des catégories",
+        "DEPREV": "Dépenses et revenues",
+        "ETATDEP": "Etat des dépenses"
+      }
+    },
+    "CHANGEBOURSE": {
+      "TEXT": "Change/Bourse",
+      "LIST": {
+        "COURSDEV": "Cours des devises",
+        "ANALMARCH": "Analyse du marché",
+        "COURSSICAV": "Cours des SICAV",
+        "COURSBOURSE": "Cours de Bourse"
+      }
+    },
+    "KANBAN": {
+      "TEXT": "Kanban Board"
+    },
+    "PAGES": {
+      "TEXT": "Pages"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Authentication",
+      "LIST": {
+        "LOGIN": "Login",
+        "REGISTER": "Register",
+        "RECOVERPWD": "Recover Password",
+        "LOCKSCREEN": "Lock screen"
+      }
+    },
+    "UTILITY": {
+      "TEXT": "Utility",
+      "LIST": {
+        "STARTER": "Starter Page",
+        "MAINTENANCE": "Maintenance",
+        "TIMELINE": "Timeline",
+        "COOMINGSOON": "Cooming Soon",
+        "FAQS": "FAQs",
+        "PRICING": "Pricing",
+        "ERROR404": "Error 404",
+        "ERROR500": "Error 500"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Components"
+    },
+    "UIELEMENTS": {
+      "TEXT": "UI Elements",
+      "LIST": {
+        "ALERTS": "Alerts",
+        "BUTTONS": "Buttons",
+        "CARDS": "Cards",
+        "CAROUSEL": "Carousel",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Grid",
+        "IMAGES": "Images",
+        "MODALS": "Modals",
+        "RANGESLIDER": "Range Slider",
+        "PROGRESSBAR": "Progress Bars",
+        "SWEETALERT": "Sweet Alert",
+        "TABS": "Tabs & Accordions",
+        "TYPOGRAPHY": "Typography",
+        "VIDEO": "Video",
+        "GENERAL": "General"
+      }
+    },
+    "FORMS": {
+      "TEXT": "Forms",
+      "BADGE": "8",
+      "LIST": {
+        "ELEMENTS": "Form Elements",
+        "VALIDATION": "Form Validation",
+        "ADVANCED": "Form Advanced",
+        "EDITOR": "Form Editor",
+        "FILEUPLOAD": "Form File Upload",
+        "REPEATER": "Form Repeater",
+        "WIZARD": "Form Wizard",
+        "MASK": "Form Mask"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tables",
+      "LIST": {
+        "BASIC": "Basic Tables",
+        "ADVANCED": "Advanced Table"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Charts",
+      "LIST": {
+        "APEX": "Apex Chart",
+        "CHARTJS": "Chartjs Chart",
+        "CHARTIST": "Chartist Chart",
+        "ECHART": "E Chart"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icons",
+      "LIST": {
+        "REMIX": "Boxicons",
+        "MATERIALDESIGN": "Material Design",
+        "DRIPICONS": "Dripicons",
+        "FONTAWESOME": "Font awesome 5"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Maps",
+      "LIST": {
+        "LEAFLET": "Leaflet Maps",
+        "GOOGLEMAP": "Google Maps"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Level",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Level 1.1",
+          "2": "Level 1.2",
+          "LEVEL2": {
+            "1": "Level 2.1",
+            "2": "Level 2.2"
+          }
+        }
+      }
+    }
+  }
+}

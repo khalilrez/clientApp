@@ -1,0 +1,86 @@
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <app-pagetitle title="Virement Compte a Compte" [breadcrumbItems]="breadCrumbItems"></app-pagetitle>
+    <!-- end page title -->
+  
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+  
+            <form [formGroup]="CACForm" (ngSubmit)="onSubmit()">
+
+              <div class="form-group row">
+              <label for="example-text-input" class="col-md-2 col-form-label">Compte à debiter</label>
+              <div class="col-md-10">
+                <input class="form-control" type="text" formControlName="comptedebit" placeholder="Saisissez votre nom" [ngClass]="{ 'is-invalid': submitted && f.comptedebit.errors }">
+              </div>
+              <div *ngIf="submitted && f.comptedebit.errors" class="invalid-feedback">
+                <div *ngIf="f.comptedebit.errors.required">compte à débiter est requis</div>
+              </div>
+              </div>
+
+              <div class="form-group row">
+              <label for="example-search-input" class="col-md-2 col-form-label">Devise</label>
+              <div class="col-md-10">
+                <input class="form-control" type="search" formControlName="devise" placeholder="Choisir une devise" [ngClass]="{ 'is-invalid': submitted && f.devise.errors }">
+              </div>
+              <div *ngIf="submitted && f.devise.errors" class="invalid-feedback">
+                <div *ngIf="f.devise.errors.required">la devise est requise</div>
+              </div>
+              </div>
+
+              <div class="form-group row">
+              <label for="example-email-input" class="col-md-2 col-form-label">Compte à Créditer</label>
+              <div class="col-md-10">
+                <input class="form-control" type="email" formControlName="comptecredit" placeholder="bootstrap@example.com" [ngClass]="{ 'is-invalid': submitted && f.comptecredit.errors }">
+              </div>
+              <div *ngIf="submitted && f.comptecredit.errors" class="invalid-feedback">
+                <div *ngIf="f.comptecredit.errors.required">compte à créditer est requis</div>
+              </div>
+              </div>
+
+              <div class="form-group row">
+              <label for="example-url-input" class="col-md-2 col-form-label">Montant</label>
+              <div class="col-md-10">
+                <input class="form-control" type="number" formControlName="montant" placeholder="Saisissez un montant" [ngClass]="{ 'is-invalid': submitted && f.montant.errors }">
+              </div>
+              <div *ngIf="submitted && f.montant.errors" class="invalid-feedback">
+                <div *ngIf="f.montant.errors.required">montant est requis</div>
+              </div>
+              </div>
+
+              <div class="form-group row">
+              <label for="example-tel-input" class="col-md-2 col-form-label">Motif Paiement</label>
+              <div class="col-md-10">
+                <input class="form-control" type="text" formControlName="motifpaiement" placeholder="Saisissez le motif de paiement" [ngClass]="{ 'is-invalid': submitted && f.motifpaiement.errors }">
+              </div>
+              <div *ngIf="submitted && f.motifpaiement.errors" class="invalid-feedback">
+                <div *ngIf="f.motifpaiement.errors.required">motif paiement est requis</div>
+              </div>
+              </div>
+
+              <div class="form-group row">
+              <label for="example-password-input" class="col-md-2 col-form-label">Date d'éxécution</label>
+              <div class="col-md-10">
+                <input class="form-control" type="date" formControlName="dateexec" placeholder="date d'éxécution" [ngClass]="{ 'is-invalid': submitted && f.dateexec.errors }">
+              </div>
+              <div *ngIf="submitted && f.dateexec.errors" class="invalid-feedback">
+                <div *ngIf="f.dateexec.errors.required">date d'éxécution est requise</div>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <button style="background:green;color:white;"class="btn btn-primary">Transférer</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div> <!-- end col -->
+    </div>
+   
+  
+  
+</div> <!-- container-fluid -->
